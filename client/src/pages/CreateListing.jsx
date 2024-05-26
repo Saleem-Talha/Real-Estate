@@ -229,7 +229,7 @@ export default function CreateListing() {
                 type="number"
                 id="bedrooms"
                 min="1"
-                max="10"
+                max="100"
                 required
                 className="p-1 border border-gray-300 rounded-lg w-12"
               />
@@ -242,7 +242,7 @@ export default function CreateListing() {
                 type="number"
                 id="bathrooms"
                 min="1"
-                max="10"
+                max="100"
                 required
                 className="p-1 border border-gray-300 rounded-lg w-12"
               />
@@ -255,7 +255,7 @@ export default function CreateListing() {
                 type="number"
                 id="regularPrice"
                 min="1000"
-                max="50000"
+                max="500000"
                 required
                 className="p-1 border border-gray-300 rounded-lg w-16"
               />
